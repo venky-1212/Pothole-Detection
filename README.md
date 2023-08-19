@@ -1,14 +1,6 @@
 # Attention Aggregation Framework
 
 
-## Introduction
-This is the official PyTorch implementation of [**We Learn Better Road Pothole Detection: from Attention Aggregation to Adversarial Domain Adaptation**](https://arxiv.org/abs/2008.06840), accepted by [ECCV Workshops 2020](https://iplab.dmi.unict.it/acvr2020/) for publication. This is our [project page](https://sites.google.com/view/pothole-600).
-
-In this repo, we provide the training and testing setup on our [Pothole-600 Dataset](https://sites.google.com/view/pothole-600/dataset?authuser=0). We test our code in Python 3.7, CUDA 10.0, cuDNN 7 and PyTorch 1.1. We provide `Dockerfile` to build the docker image we use.
-
-<p align="center">
-<img src="doc/AAFramework.png" width="100%"/>
-</p>
 
 
 ## Setup
@@ -64,5 +56,3 @@ If you use this code for your research, please cite our paper.
 ```
 
 
-## Acknowledgement
-Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), [pytorch_segmentation](https://github.com/yassouali/pytorch_segmentation) and [RTFNet](https://github.com/yuxiangsun/RTFNet).
